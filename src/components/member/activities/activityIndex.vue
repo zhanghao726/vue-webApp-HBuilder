@@ -7,7 +7,7 @@
           </div>
           <div class='sbottom'>
             <p class="title">{{item.title}}</p>
-            <p class="time-line"><span  class='time'>{{item.startDate}} - {{item.endDate}}</span> 
+            <p class="time-line"><span  class='time'>{{item.startDate}} - {{item.endDate}}</span>
             <span class="view"><span class="view_icon"><img src="../../../assets/images/icons/view.png"></span>{{item.viewer || 0}}人</span></p>
           </div>
         </router-link>
@@ -51,7 +51,7 @@
 
 </script>
 <style>
-  
+
 .activityIndex .activeItem{
   margin:10px 10px 0 10px;
   position: relative;

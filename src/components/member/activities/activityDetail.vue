@@ -19,7 +19,7 @@
 				</p>
 			</div>
 		</div>
-		
+
 	</div>
 </template>
 <script>
@@ -45,10 +45,10 @@
 		            showLoading:true,
 		            success:function(data){
 		                console.log(data.returnObject)
-		                self.mainData=data.returnObject		 
+		                self.mainData=data.returnObject
 		            }
 		          })
-	    	}	
+	    	}
 	    },
 
 	    components:{
@@ -93,8 +93,8 @@
 
   .activityDetail  .text-top{
 		border-bottom: 1px solid #eee;
-		padding: 10px 15px 15px 15px; 
+		padding: 10px 15px 15px 15px;
  }
 
-	
+
 </style>
